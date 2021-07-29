@@ -1,8 +1,5 @@
 #  Nearly Lucky Number
 
-from typing import Counter
-
-
 n = map(int,list(input()))
 counter = 0
 
