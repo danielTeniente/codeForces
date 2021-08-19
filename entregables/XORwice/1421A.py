@@ -1,0 +1,5 @@
+n = int(input())
+for _ in range(n):
+    a,b = map(int,input().split())
+    x = a&b
+    print((a^x)+(b^x))
